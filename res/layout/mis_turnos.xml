@@ -21,7 +21,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.08"
-                android:text="Mis Turnos"
+                android:text="@string/misturnos"
                 android:textSize="25dp"
                 android:textStyle="bold"
                 android:width="60dp" />
@@ -39,7 +39,7 @@
                 android:id="@+id/TextViewLunes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Lunes"
+                android:text="@string/lunes"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -47,7 +47,7 @@
                 android:id="@+id/TextViewLu"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="@string/textview" />
 
         </LinearLayout>
 
@@ -63,7 +63,7 @@
                 android:id="@+id/TextViewMartes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Martes"
+                android:text="@string/martes"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -71,7 +71,7 @@
                 android:id="@+id/TextViewMa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="@string/textview" />
 
         </LinearLayout>
 
@@ -87,7 +87,7 @@
                 android:id="@+id/TextViewMiercoles"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Miercoles"
+                android:text="@string/miercoles"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -95,7 +95,7 @@
                 android:id="@+id/TextViewMi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="@string/textview" />
 
         </LinearLayout>
 
@@ -111,7 +111,7 @@
                 android:id="@+id/TextViewJueves"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Jueves"
+                android:text="@string/jueves"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -119,7 +119,7 @@
                 android:id="@+id/TextViewJu"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="@string/textview" />
 
         </LinearLayout>
 
@@ -135,7 +135,7 @@
                 android:id="@+id/TextViewViernes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Viernes"
+                android:text="@string/viernes"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -143,7 +143,7 @@
                 android:id="@+id/TextViewVi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="@string/textview" />
 
         </LinearLayout>
 
@@ -159,7 +159,7 @@
                 android:id="@+id/TextViewSabado"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sabado"
+                android:text="@string/sabado"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -167,7 +167,7 @@
                 android:id="@+id/TextViewSa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="@string/textview" />
 
         </LinearLayout>
 
@@ -182,7 +182,7 @@
                 android:id="@+id/TextViewDomingo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Domingo"
+                android:text="@string/domingo"
                 android:textSize="20dp"
                 android:textStyle="bold" />
 
@@ -190,7 +190,7 @@
                 android:id="@+id/TextViewDo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="@string/textview" />
 
         </LinearLayout>
     </RelativeLayout>

@@ -21,7 +21,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.08"
-                android:text="Mi Perfil"
+                android:text="@string/perfil"
                 android:textSize="25dp"
                 android:textStyle="bold"
                 android:width="60dp" />
@@ -38,7 +38,7 @@
                 android:id="@+id/TextView_Nombres"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Nombres"
+                android:text="@string/nombres"
                 android:width="60dp" />
 
             <EditText
@@ -63,7 +63,7 @@
                 android:id="@+id/TextView_Email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Email"
+                android:text="@string/email"
                 android:width="60dp" />
 
             <EditText
@@ -86,7 +86,7 @@
                 android:id="@+id/TextView_Telefono"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Telefono Movil"
+                android:text="@string/telefono"
                 android:width="60dp" />
 
             <EditText
@@ -109,7 +109,7 @@
                 android:id="@+id/TextView_Password"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Password"
+                android:text="@string/password"
                 android:width="60dp" />
 
             <EditText
@@ -132,7 +132,7 @@
                 android:id="@+id/TextView_Confirm"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Confirm Passowrd"
+                android:text="@string/confirmar_password"
                 android:width="60dp" />
 
             <EditText
@@ -157,7 +157,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="actualizar"
-                android:text="Actualizar Datos" />
+                android:text="@string/actualizar" />
         </LinearLayout>
     </RelativeLayout>
 

@@ -75,7 +75,29 @@ public final class R {
         public static final int turnos_agenos=0x7f030006;
     }
     public static final class string {
+        public static final int actualizar=0x7f040017;
         public static final int app_name=0x7f040001;
+        public static final int buscar=0x7f04000b;
+        public static final int buscarBtn=0x7f04000c;
+        public static final int confirmar_password=0x7f040016;
+        public static final int domingo=0x7f040008;
+        public static final int email=0x7f040013;
         public static final int hello=0x7f040000;
+        public static final int iniciar=0x7f04000e;
+        public static final int jueves=0x7f040005;
+        public static final int login=0x7f04000f;
+        public static final int lunes=0x7f040002;
+        public static final int martes=0x7f040003;
+        public static final int miercoles=0x7f040004;
+        public static final int misturnos=0x7f04000d;
+        public static final int nombrebuscar=0x7f04000a;
+        public static final int nombres=0x7f040012;
+        public static final int pass=0x7f040010;
+        public static final int password=0x7f040015;
+        public static final int perfil=0x7f040011;
+        public static final int sabado=0x7f040007;
+        public static final int telefono=0x7f040014;
+        public static final int textview=0x7f040009;
+        public static final int viernes=0x7f040006;
     }
 }

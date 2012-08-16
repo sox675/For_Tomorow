@@ -23,7 +23,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="58dp"
-                android:text="Iniciar Sesion"
+                android:text="@string/iniciar"
                 android:textSize="30dp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -39,11 +39,11 @@
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Login"
+                android:text="@string/login"
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:width="70dp" />
-
+
             <EditText
                 android:id="@+id/EditTextLogin"
                 android:layout_width="match_parent"
@@ -64,17 +64,15 @@
             android:layout_marginTop="95dp"
             android:gravity="center" >
 
-
-
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Pass"
+                android:text="@string/pass"
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:width="70dp" />
-
+
             <EditText
                 android:id="@+id/EditTextPassword"
                 android:layout_width="match_parent"
@@ -82,7 +80,6 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:inputType="textPassword" >
-
             </EditText>
         </LinearLayout>
 
@@ -92,14 +89,13 @@
             android:layout_alignParentLeft="true"
             android:layout_below="@+id/linearLayout2"
             android:gravity="center" >
-
+
             <Button
                 android:id="@+id/Button_Login"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:onClick="iniciarSesion"
-                android:text="Iniciar Sesion" />
-
+                android:text="@string/iniciar" />
         </LinearLayout>
     </RelativeLayout>
 

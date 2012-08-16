@@ -3,5 +3,28 @@
 
     <string name="hello">Hello World, ForTomorowActivity!</string>
     <string name="app_name">ForTomorow</string>
+    <string name="lunes">Lunes</string>
+    <string name="martes">Martes</string>
+    <string name="miercoles">Miercoles</string>
+    <string name="jueves">Jueves</string>
+    <string name="viernes">Viernes</string>
+    <string name="sabado">Sabado</string>
+    <string name="domingo">Domingo</string>
+    <string name="textview">TextView</string>
+    <string name="nombrebuscar">Ingrese Nombre a Buscar</string>
+    <string name="buscar">Buscar...</string>
+    <string name="buscarBtn">Buscar</string>
+    <string name="misturnos">Mis Turnos</string>
+    <string name="iniciar">Iniciar Sesion</string>
+    <string name="login">Login</string>
+    <string name="pass">Pass</string>
+    <string name="perfil">Mi Perfil</string>
+    <string name="nombres">Nombres</string>
+    <string name="email">Email</string>
+    <string name="telefono">Telefono Movil</string>
+    <string name="password">Password</string>
+    <string name="confirmar_password">Confirm Passowrd</string>
+    <string name="actualizar">Actualizar Datos</string>
+    
 
 </resources>

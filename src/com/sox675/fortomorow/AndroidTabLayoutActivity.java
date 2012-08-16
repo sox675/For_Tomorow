@@ -24,6 +24,14 @@ public class AndroidTabLayoutActivity extends TabActivity {
 		MisTurnosIntent.putExtras(MisTurnosBundle);
 		MisTurnos.setContent(MisTurnosIntent);
 
+		TabSpec Search = tabHost.newTabSpec("Mis Libros");
+		Search.setIndicator("", getResources().getDrawable(R.drawable.search));
+		Intent SearchIntent = new Intent(this, AndroidSearch.class);
+		Bundle SearchBundle = new Bundle();
+		SearchBundle.putString("idpersona", idvariable);
+		SearchIntent.putExtras(SearchBundle);
+		Search.setContent(SearchIntent);
+		
 		TabSpec Profile = tabHost.newTabSpec("Edit Profile");
 		Profile.setIndicator("", getResources().getDrawable(R.drawable.profile));
 		Intent ProfileIntent = new Intent(this, AndroidProfile.class);
@@ -32,17 +40,9 @@ public class AndroidTabLayoutActivity extends TabActivity {
 		ProfileIntent.putExtras(mis);
 		Profile.setContent(ProfileIntent);
 
-		TabSpec Search = tabHost.newTabSpec("Mis Libros");
-		Search.setIndicator("", getResources().getDrawable(R.drawable.search));
-		Intent SearchIntent = new Intent(this, AndroidSearch.class);
-		Bundle SearchBundle = new Bundle();
-		SearchBundle.putString("idpersona", idvariable);
-		SearchIntent.putExtras(SearchBundle);
-		Search.setContent(SearchIntent);
-
 		tabHost.addTab(MisTurnos);
-		tabHost.addTab(Profile);
 		tabHost.addTab(Search);
+		tabHost.addTab(Profile);
 
 	}
 }
